@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    // let campeonatos = [
-    //     { nome: "1° Fase", jogadores: ["Carlos", "João", "Pedro", "Luiz", "Thiago", "Papi", "Zé", "Iann", "Carioca", "Marcus"] },
-    //     { nome: "2° Fase", jogadores: ["Carlos", "João", "Pedro", "Luiz", "Thiago"] }
-    // ];
-    let campeonatos = [];
+    // let campeonatos = [];
+    let campeonatos = [
+        { nome: "1° Fase", jogadores: ["Carlos", "João", "Pedro", "Luiz", "Thiago", "Papi", "Zé", "Iann", "Carioca", "Marcus"] },
+        // { nome: "2° Fase", jogadores: ["Carlos", "João", "Pedro", "Luiz", "Thiago"] }
+    ];
 
     // Função para renderizar a lista de campeonatos
     function renderizarListaCampeonatos() {
